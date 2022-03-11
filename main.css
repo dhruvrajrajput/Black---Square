@@ -1,0 +1,187 @@
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.logo-name {
+  font-family: 'Merriweather', serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+}
+.hero-image {
+  background: url("./Black images/pngtree-texture-geometric-black-metal-gradient-image_17809.jpg") repeat-x 0 0;
+  padding: 80px 0;
+  background-size: cover;
+  text-align: center;
+}
+.hero-text {
+  color: #ffffff;
+  padding: 50px 15px 70px;
+}
+.font-family {
+  font-family: 'Lora', serif;
+}
+.text-center {
+  text-align: center;
+}
+.letter-spacing {
+  letter-spacing: 1em;
+}
+.color {
+  color: rgb(238, 238, 238);
+}
+.container-1 {
+  position: relative;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+.container-1:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.height {
+  height: 722px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  background-color: #222222;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #333;
+}
+.sn {
+  font-family: 'Hubballi', cursive;  
+  color: rgb(80, 77, 77);
+}
+.studio-letter {
+  letter-spacing: .3em;
+}
+.container-2 {
+  position: relative;
+}
+.image-2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+.container-2:hover .overlay-2 {
+  opacity: 1;
+}
+.text-2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Swiper */
+
+.swiper {
+  width: 100%;
+  height: 500px;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  background-image: url("./Black images/abstract-luxury-blur-dark-grey-black-gradient-background-abstract-luxury-blur-dark-grey-black-gradient-background-floor-141378534.jpg");
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  line-height: 1.3;
+  top: 20%;
+  left: 30%;
+  text-align: center;
+}
+.letter-spacing-2 {
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .flex-direction {
+    flex-direction: column;
+  }
+  .image {
+    width: 450px;
+    height: 450px;
+  }
+  .image-cover {
+    width: 450px;
+    height: 250px;
+  }
+}
